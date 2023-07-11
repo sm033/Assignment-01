@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(245, 234, 234);
+    background-color: white;
     
 }
 .logo{
@@ -40,7 +40,7 @@ nav a{
  
 .banner-container{
     display: flex;
-    width: 1920px;
+    width: 100%;
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
     align-items: center;
@@ -104,7 +104,7 @@ nav a{
  
 .featured-flower{
     display: flex;
-    margin-left: 240px;
+    margin-left: 310px;
     margin-top: 50px;
 }
 .featured-1{
@@ -169,7 +169,7 @@ nav a{
     background: rgba(39, 39, 39, 0.05);
     width: 1440px;
     height: 220px;
-    margin-left: 240px;
+    margin-left: 310px;
     align-items: center;
     margin-top: 150px;
 
@@ -212,7 +212,7 @@ nav a{
 .deal-container{
     display: flex;
     justify-content: space-between;
-    width: 1922px;
+    width: 100%;
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -283,7 +283,7 @@ nav a{
 }
 .insta-flower{
     display: flex;
-    margin-left: 240px;
+    margin-left: 310px;
     margin-top: 50px;
     gap: 24px;
 }
@@ -313,7 +313,7 @@ nav a{
   background: url(./rectangle\ 9.png);
   width: 1440px;
     height: 400px;
-    margin-left: 240px;
+    margin-left: 310px;
     margin-top: 100px;
     border-radius: 8px
 }
@@ -364,4 +364,38 @@ nav a{
 }
 .search-bar{
     display: flex;
+}
+/* footer section */
+.footer-section{
+    height: 449px;
+    background: #111010;
+    margin-top: 128px;
+    width: 100%;
+}
+.footer-section span{
+    color: white;
+}
+.footer-heading{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+    margin-left: 841px;
+    margin-bottom: 0px;
+}
+.footer-text{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
+    margin-left: 658px;
+    margin-top: 24px;
+    padding-bottom: 24px;
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 794px;
 }
