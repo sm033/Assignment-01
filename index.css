@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(247, 232, 232);
     
 }
 .logo{
@@ -164,6 +164,62 @@ nav a{
     text-decoration-line: underline;
     margin-left: 300px;
 }
+
+/* about us  */
+
+.about-us{
+    margin-top: 128px;
+}
+.about-us-img{
+    width: 318px;
+    height: 420px;
+}
+.about-headline{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+margin-left: 950px;
+}
+.about-content{
+    display: flex;
+    margin-left: 550px;
+  
+
+}
+.about-heading span{
+    color: #E55473;
+}
+.about-text-content{
+    margin-left: 100px;
+}
+.about-heading{
+    color: #272727;
+
+font-size: 40px;
+font-weight: 700;
+
+
+}
+.about-des{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 634px;
+
+}
+.about-btn{
+ padding: 20px 43px;
+   gap: 10px;
+   border-radius: 8px;
+background: #E55473;
+color: #FFF;
+font-weight: 700;
+border: none;
+font-size: 20px;
+
+}
+
  .sevice-section{
     border-radius: 9px;
     background: rgba(39, 39, 39, 0.05);
